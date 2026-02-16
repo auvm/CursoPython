@@ -15,3 +15,16 @@ print(texto2)
 print(numero)
 print(decimal)
 print(booleano)
+
+print("-----------------------------")
+
+# concatenación
+
+nombre = "Victor"
+apellido = "Robles"
+web = "victorroblesweb.es"
+print(nombre + " " + apellido + " - " + web)
+print(f"{nombre} {apellido} - {web}")
+print("Hola me llamo {} {} y mi web es: {}".format(nombre, apellido, web))
+
+print(nombre, apellido, web)
