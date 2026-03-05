@@ -39,3 +39,24 @@ if year >= 2021:
     print("Estamos de 2021 en adelante")
 else:
     print("Estamos antes de 2021")
+
+
+print("************** EJEMPLO 3  *****************")
+
+nombre = input("¿Cómo te llamas?: ")
+ciudad = input("¿En qué ciudad vives?: ")
+continente = input("¿En qué continente vives?: ")
+edad = int(input("¿Cuántos años tienes?: "))
+mayoria_edad = 18
+
+if edad >= mayoria_edad:
+
+    print(f"{nombre} es mayor de edad")
+
+    if continente.lower() == "america":
+        print("Eres de América")
+    else:
+       print("No eres de América")
+
+else:
+    print(f"{nombre} es menor de edad")
